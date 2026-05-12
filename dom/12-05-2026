@@ -85,11 +85,11 @@ btn.addEventListener("click",function() {
     alert("Button clicked")
 })
 
-//function click(){
-  //  alert("Button clicked")
-    //btn.innerText = "Button clicked"
-//}
-//btn.addEventListener("click",click())
+ function click(){
+   alert("Button clicked")
+    btn.innerText = "Button clicked"
+}
+btn.addEventListener("click",click())
 
 
 // ex for create a DOM element
