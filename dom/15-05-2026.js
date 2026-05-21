@@ -21,8 +21,7 @@ let div = document.getElementById("div")
 function action2(){
     console.log("parent element")
 }
-div.addEventListener("click",action2)
-
+div.addEventListener("click",action)
 // ex
 document.getElementById("btn").addEventListener("click",() =>{
     console.log("button clicked")
